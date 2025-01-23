@@ -1,2 +1,2 @@
-bucket = "datalake-terraform-state"
+bucket = "q-datalake-tf-state"
 prefix = "env/prod" 
