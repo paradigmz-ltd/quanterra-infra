@@ -35,7 +35,7 @@ jobs:
     - name: Terraform Init
       run: |
         terraform init \
-          -backend-config=backend-production.hcl
+          -backend-config=backend-prod.hcl
 
     - name: Terraform Format
       run: terraform fmt -check
