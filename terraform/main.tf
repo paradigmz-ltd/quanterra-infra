@@ -34,7 +34,7 @@ resource "google_storage_bucket" "bronze_layer" {
 
   lifecycle_rule {
     condition {
-      age = var.environment == "production" ? 90 : 30
+      age = var.environment == "production" ? 90 : 10
     }
     action {
       type          = "SetStorageClass"
